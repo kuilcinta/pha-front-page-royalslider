@@ -1,0 +1,107 @@
+/******************************
+*
+*  RoyalSlider Default Skin 
+*
+*    1. Arrows 
+*    2. Preloader
+*    3. Caption
+*    4. Slide count
+* 
+******************************/
+
+
+/* Background */
+.rsDefault,
+.rsDefault .rsOverflow,
+.rsDefault .rsSlide,
+.rsDefault .rsVideoFrameHolder,
+.rsDefault .rsThumbs {
+	color: #252525;
+	padding-bottom: 40px;
+}
+
+
+/***************
+*
+*  1. Arrows
+*
+****************/
+
+.rsDefault .rsArrow {
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	z-index: 21;
+}
+
+.rsDefault.rsHor .rsArrowLeft { bottom: 0; right: 70px; }
+.rsDefault.rsHor .rsArrowRight { bottom: 0; right: 0; }
+
+.rsDefault .rsArrowIcn {		
+	width: 20px;
+	height: 20px;
+	
+	cursor: pointer;	
+	background: url('rs-pha.png');
+
+	
+	background-color: #FFF;
+	*background-color: #FFF;
+	
+	
+}
+
+.rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background-position: -6px -13px; }
+.rsDefault.rsHor .rsArrowRight .rsArrowIcn { background-position: -34px -13px; }
+
+
+/***************
+*
+*  2. Preloader
+*
+****************/
+
+.rsDefault .rsPreloader {
+	width:20px;
+	height:20px;
+	background-image:url(../preloaders/preloader-white.gif);
+
+	left:50%;
+	top:50%;
+	margin-left:-10px;
+	margin-top:-10px;	
+}
+
+
+/***************
+*
+*  3. Global caption
+*
+****************/
+
+.rsDefault .rsGCaption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	line-height: 1.25;	
+
+	color: #252525;
+	width: auto;
+
+}
+
+
+/***************
+*
+*  4. Slide count
+*
+****************/
+
+.rsSlideCount {
+	position: absolute;
+	bottom: 0;
+	right: 27px;
+	text-align: center;
+	line-height: 1.25;	
+}
