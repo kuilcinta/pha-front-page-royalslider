@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 	$('.royalSlider').royalSlider({
 		autoScaleSlider: true,
+		autoScaleSliderHeight: 420,
 		imageScalePadding: 0,
 		controlNavigation: 'none',
 		arrowsNavAutoHide: false,
