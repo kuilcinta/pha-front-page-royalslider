@@ -38,7 +38,7 @@
 	z-index: 21;
 }
 
-.rsDefault.rsHor .rsArrowLeft { bottom: 0; right: 57px; }
+.rsDefault.rsHor .rsArrowLeft { bottom: 0; right: 70px; }
 .rsDefault.rsHor .rsArrowRight { bottom: 0; right: 0; }
 
 .rsDefault .rsArrowIcn {		
@@ -83,15 +83,16 @@
 .rsDefault .rsGCaption {
 	position: absolute;
 	bottom: 0;
-	left: 0;
-	text-align: left;
+	/*left: 50%;*/
+	/*margin: 0 auto;*/
+	text-align: center;
 	line-height: 1.625;	
 
 	font-family: "Lato", sans-serif;
 	font-size: .75em;
 	font-weight: 400;
 	color: #666;
-	width: auto;
+	/*width: auto;*/
 }
 
 
@@ -104,11 +105,12 @@
 .rsSlideCount {
 	position: absolute;
 	bottom: 0;
-	right: 24px;
+	right: 20px;
 	font-family: "Lato", sans-serif;
 	font-size: .75em;
 	font-weight: 400;
 	color: #666;
 	text-align: center;
 	line-height: 1.625;	
+	width: 50px;
 }
